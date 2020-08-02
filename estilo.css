@@ -1,0 +1,30 @@
+.header a {
+    
+}
+.header{
+    
+}
+
+.logo{
+    padding-right: 750px;
+}
+
+.primeirasecao{
+    margin-top: 150px;
+    height: 500px;
+}
+
+.primeirasecao h1{
+    text-align: center;
+    color: brown;
+}
+
+.primeirasecao h5{
+    text-align: center;
+    color: brown;
+    margin-top: 50px;
+}
+
+.grafico{
+    margin-left: 150px;
+}
