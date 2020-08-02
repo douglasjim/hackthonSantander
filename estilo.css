@@ -1,8 +1,5 @@
-.header a {
-    
-}
-.header{
-    
+body{
+    background-color: #8B0000;
 }
 
 .logo{
@@ -16,15 +13,30 @@
 
 .primeirasecao h1{
     text-align: center;
-    color: brown;
+    color: red;
 }
 
 .primeirasecao h5{
     text-align: center;
-    color: brown;
+    color:red;
     margin-top: 50px;
 }
 
 .grafico{
-    margin-left: 150px;
+    margin-left: 80px;
+}
+
+#subir{
+	position:fixed;
+	bottom:0px;
+    right:0px;
+    width: 100px;
+    height: 100px;
+}
+#subir img{
+    width: 100px;
+}
+
+section iframe{
+    height: 700px;
 }

@@ -12,12 +12,12 @@
     <title>Hello, world!</title>
   </head>
   <body>
+<span id='topo'></span>
 
     
 <div class="container"> 
 
     
-
     <ul class="nav justify-content-center header">
         <li class="nav-item logo">
             <a class="nav-link" href="#">Portal Phonex</a>
@@ -39,13 +39,28 @@
         </section>
     </div>
 
-
 </div>
 
-<section class="grafico" id="grafico">
-    <iframe width="1200" height="700" src="https://app.powerbi.com/view?r=eyJrIjoiZDBlNTA1YTEtZjY1Ny00MGM4LTgyZTYtNjY3ZWRmY2I3MWJiIiwidCI6IjdlOTNlMjg2LWIyOWEtNDQ1NC1hNDFhLWU4NDE5ZWM5ZGViNSJ9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe> 
-</section>
+<div class="row">
+    <section class="col  grafico" id="grafico">
+        <iframe class="col-11" src="https://app.powerbi.com/view?r=eyJrIjoiZDBlNTA1YTEtZjY1Ny00MGM4LTgyZTYtNjY3ZWRmY2I3MWJiIiwidCI6IjdlOTNlMjg2LWIyOWEtNDQ1NC1hNDFhLWU4NDE5ZWM5ZGViNSJ9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe> 
+    </section>
+</div>
+
+
+<div id="voltarTopo">
+	<a href="#" id="subir"><img src="up.svg"></a>
+</div>
+
     <!-- Optional JavaScript -->
+    <script>
+        $(document).ready(function() {
+            $('#subir').click(function(){
+                $('html, body').animate({scrollTop:0}, 'slow');
+                return true;
+            });
+        });
+    </script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
