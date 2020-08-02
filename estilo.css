@@ -1,9 +1,23 @@
 body{
-    background-color: #8B0000;
+    background: rgba(139, 0, 0, 0.8);
 }
 
 .logo{
     padding-right: 750px;
+    color: white;
+}
+.logo img{
+    margin-top: -40px;
+    margin-bottom: -20px;
+    width: 150px;
+}
+
+.people{
+    margin-top: 80px;
+}
+
+.demo{
+    margin-top: 40px;
 }
 
 .primeirasecao{
@@ -23,7 +37,7 @@ body{
 }
 
 .grafico{
-    margin-left: 80px;
+    margin-left: 30px;
 }
 
 #subir{
@@ -38,5 +52,30 @@ body{
 }
 
 section iframe{
-    height: 700px;
+    height: 650px;
+}
+
+@media only screen and (max-width: 700px) {
+    .logo{
+        margin-left: 750px;
+        color: white;
+    }
+    .logo h4{
+        margin-left: 40px;
+        color: white;
+    }
+    .people{
+        margin-top: 40px;
+    }
+    .header a{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    section iframe{
+        height: 500px;
+    }
+    body{
+        margin:0px
+    }
+
 }
