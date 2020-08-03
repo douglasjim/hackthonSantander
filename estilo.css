@@ -114,10 +114,23 @@ section iframe{
         font-size: 60px;
     }
     .primeirasecao h5{
-        font-size: 35px;
+        font-size: 30px;
     }
     .primeirasecao{
-        margin-bottom: 30px;
+        margin-bottom: 60px;
+    }
+    
+}
+
+@media only screen and (max-width: 370px){
+    .primeirasecao h1{
+        font-size: 40px;
+    }
+    .primeirasecao h5{
+        font-size: 30px;
+    }
+    .primeirasecao{
+        margin-bottom: 0px;
     }
     
 }
