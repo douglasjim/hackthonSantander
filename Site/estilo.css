@@ -1,0 +1,125 @@
+body{
+    background: rgba(247, 195, 195);
+    font-family:arial;
+    color:black;
+    line-height: 0px;
+}
+
+
+.logo{
+    padding-right: 600px;
+}
+.logo img{
+    margin-top: 10px;
+    margin-bottom: -20px;
+    width: 150px;
+}
+
+.demo{
+    margin-top: 70px;
+    color:black;
+}
+
+.primeirasecao{
+    margin-top: 20px;
+    height: 500px;
+}
+
+.primeirasecao h1{
+    text-align: center;
+    font-size: 100px;
+}
+
+.primeirasecao h5{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.grafico{
+    margin-top: 40px;
+    margin-left: 30px;
+    background: rgba(247, 195, 195);
+}
+
+#subir{
+	position:fixed;
+	bottom:0px;
+    right:0px;
+    width: 100px;
+    height: 100px;
+}
+#subir img{
+    width: 100px;
+}
+
+section iframe{
+    height: 650px;
+}
+
+@media only screen and (max-width: 980px) {
+    .logo img{
+        margin-left: 610px;
+    }
+    .header a{
+        margin-top: -60px;
+        margin-left: 20px;
+    }
+    .primeirasecao h1{
+        font-size: 70px;
+    }
+    .primeirasecao h5{
+        font-size: 35px;
+    }
+    .primeirasecao{
+        margin-bottom: -50px;
+    }
+    section iframe{
+        height: 500px;
+    }
+    body{
+        margin:0px
+    }
+
+}
+
+@media only screen and (max-width: 780px){
+    .primeirasecao h1{
+        font-size: 60px;
+    }
+    .primeirasecao h5{
+        font-size: 35px;
+    }
+    .primeirasecao{
+        margin-bottom: -45px;
+    }
+    
+}
+
+@media only screen and (max-width: 550px){
+    .primeirasecao h1{
+        font-size: 60px;
+    }
+    .primeirasecao h5{
+        font-size: 35px;
+    }
+    .primeirasecao{
+        margin-bottom: -45px;
+    }
+    
+}
+
+@media only screen and (max-width: 520px){
+    .primeirasecao h1{
+        font-size: 60px;
+    }
+    .primeirasecao h5{
+        font-size: 35px;
+    }
+    .primeirasecao{
+        margin-bottom: 30px;
+    }
+    
+}
+
+
